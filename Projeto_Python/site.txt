@@ -1,0 +1,690 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+ <head>
+  <!-- Author: Daniel Silva - Maquina Cohn & Wolfe -->
+  <meta charset="utf-8"/>
+  <meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+  <meta content="width=device-width, initial-scale=1, minimum-scale=1" name="viewport"/>
+  <meta content="Boletim Coronavírus completo - casos em São Paulo." name="description"/>
+  <meta content="no-cache" http-equiv="cache-control">
+   <meta content="pt_BR" property="og:locale">
+    <meta content="https://www.seade.gov.br/coronavirus/" property="og:url">
+     <meta content="#CORONAVIRUS - CASOS EM SP -" property="og:title">
+      <meta content="Fundação SEADE" property="og:site_name"/>
+      <meta content="Boletim Coronavírus completo - casos em São Paulo." property="og:description"/>
+      <meta content="https://www.seade.gov.br/coronavirus/images/painel-corona-virus.jpg" property="og:image"/>
+      <meta content="image/jpeg" property="og:image:type"/>
+      <meta content="website" property="og:type"/>
+      <title>
+       Coronavírus - Dados Completos
+      </title>
+      <link href="https://www.saopaulo.sp.gov.br/wp-content/themes/saopaulo/favicon.ico" rel="shortcut icon"/>
+      <link href="assets/bootstrap/css/bootstrap.css" rel="stylesheet"/>
+      <link href="assets/bootstrap/css/bootstrap-grid.min.css" rel="stylesheet"/>
+      <link href="assets/bootstrap/css/bootstrap-reboot.min.css" rel="stylesheet"/>
+      <link href="assets/tether/tether.min.css" rel="stylesheet"/>
+      <link href="style-novo-layout.css" rel="stylesheet"/>
+      <link as="style" href="assets/mobirise/css/mbr-additional.css" rel="preload"/>
+      <link href="assets/mobirise/css/mbr-additional.css" rel="stylesheet" type="text/css"/>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js">
+      </script>
+      <script src="js/jquery-3.3.1.min.js">
+      </script>
+      <script src="js/flickity.pkgd.min.js">
+      </script>
+      <script src="js/menu.js">
+      </script>
+      <!-- Global site tag (gtag.js) - Google Analytics -->
+      <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-11354741-1">
+      </script>
+      <script>
+       window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-11354741-1');
+      </script>
+      <style>
+       .intrinsic-container {
+                                                            position: relative;
+                                                            height: 0;
+                                                            overflow: hidden;
+                                                        }
+                                                    
+                                                    /* 16x9 Aspect Ratio */
+                                                    .intrinsic-container-16x9 {
+                                                        padding-bottom: 56.25%;
+                                                    }
+                                                    
+                                                    /* 4x3 Aspect Ratio */
+                                                    .intrinsic-container-4x3 {
+                                                        padding-bottom: 75%;
+                                                    }
+                                                    
+                                                    .intrinsic-container iframe {
+                                                        position: absolute;
+                                                        top:0;
+                                                        left: 0;
+                                                        width: 100%;
+                                                        height: 100%;
+                                                    }
+                                                    section#cabecseade {
+                                                        background: url(assets/images/bg-telegram.png);
+                                                        padding: 0px 0 5px;
+                                                        background-repeat: no-repeat;
+                                                        background-size: cover;
+                                                    }
+      </style>
+     </meta>
+    </meta>
+   </meta>
+  </meta>
+ </head>
+ <body>
+  <section class="govsp-topo">
+   <link href="barra-govsp/css/topo-basico-sp.min.css" rel="stylesheet" type="text/css"/>
+   <link href="barra-govsp/css/contraste.css" rel="stylesheet" type="text/css"/>
+   <div class="blu-e" id="govsp-topbarGlobal">
+    <div id="topbarGlobal">
+     <div class="govsp-black" id="topbarLink">
+      <div class="govsp-portal">
+       <a href="https://www.saopaulo.sp.gov.br/">
+        saopaulo.sp.gov.br
+       </a>
+      </div>
+     </div>
+     <nav class="govsp-navbar govsp-navbar-expand-lg">
+      <a class="govsp-link" href="http://www.cidadao.sp.gov.br" target="_blank">
+       Cidadão SP
+      </a>
+      <a class="govsp-social" href="https://www.facebook.com/governosp/" target="_blank">
+       <img alt="Facebook Governo de São Paulo" class="govsp-icon-social" src="barra-govsp/img/facebook.png"/>
+      </a>
+      <a class="govsp-social" href="https://www.twitter.com/governosp/" target="_blank">
+       <img alt="Facebook Governo de São Paulo" class="govsp-icon-social" src="barra-govsp/img/twitter.png"/>
+      </a>
+      <a class="govsp-social" href="https://www.instagram.com/governosp/" target="_blank">
+       <img alt="Instagram Governo de São Paulo" class="govsp-icon-social" src="barra-govsp/img/insta.png"/>
+      </a>
+      <a class="govsp-social" href="https://www.flickr.com/governosp/" target="_blank">
+       <img alt="Flickr Governo de São Paulo" class="govsp-icon-social" src="barra-govsp/img/flickr.png"/>
+      </a>
+      <a class="govsp-social" href="https://www.youtube.com/governosp/" target="_blank">
+       <img alt="Youtube Governo de São Paulo" class="govsp-icon-social" src="barra-govsp/img/youtube.png"/>
+      </a>
+      <a class="govsp-social" href="https://www.issuu.com/governosp/" target="_blank">
+       <img alt="Issuu Governo de São Paulo" class="govsp-icon-social" src="barra-govsp/img/issuu.png"/>
+      </a>
+      <a class="govsp-social" href="https://www.linkedin.com/company/governosp/" target="_blank">
+       <img alt="Linkedin Governo de São Paulo" class="govsp-icon-social" src="barra-govsp/img/linkedin.png"/>
+      </a>
+      <p class="govsp-social">
+       /governosp
+      </p>
+      <a class="govsp-acessibilidade" href="javascript:mudaTamanho('body', 1);">
+       <img alt="Aumentar Fonte" class="govsp-acessibilidade" src="barra-govsp/img/big-font.png"/>
+      </a>
+      <a class="govsp-acessibilidade" href="javascript:mudaTamanho('body', -1);">
+       <img alt="Diminuir Fonte" class="govsp-acessibilidade" src="barra-govsp/img/small-font.png"/>
+      </a>
+      <a accesskey="3" class="govsp-acessibilidade" href="#" id="altocontraste" onclick="window.toggleContrast()" onkeydown="window.toggleContrast()">
+       <img alt="Contraste" class="govsp-acessibilidade" src="barra-govsp/img/contrast.png"/>
+      </a>
+      <a class="govsp-acessibilidade" href="https://www.saopaulo.sp.gov.br/fale-conosco/comunicar-erros/" target="_blank" title="Comunicar Erros">
+       <img class="govsp-acessibilidade" src="barra-govsp/img/error-report.png"/>
+      </a>
+     </nav>
+    </div>
+    <div class="govsp-kebab">
+     <figure>
+     </figure>
+     <figure class="govsp-middle">
+     </figure>
+     <p class="govsp-cross">
+     </p>
+     <figure>
+     </figure>
+     <ul class="govsp-dropdown" id="govsp-kebab">
+      <li>
+       <a class="govsp-link" href="http://www.cidadao.sp.gov.br" target="_blank">
+        Cidadão SP
+       </a>
+       <li>
+        <a class="govsp-social" href="https://www.facebook.com/governosp/" target="_blank">
+         <img alt="Facebook Governo de São Paulo" class="govsp-icon-social" src="barra-govsp/img/facebook.png"/>
+        </a>
+       </li>
+       <li>
+        <a class="govsp-social" href="https://www.twitter.com/governosp/" target="_blank">
+         <img alt="Facebook Governo de São Paulo" class="govsp-icon-social" src="barra-govsp/img/twitter.png"/>
+        </a>
+       </li>
+       <li>
+        <a class="govsp-social" href="https://www.instagram.com/governosp/" target="_blank">
+         <img alt="Facebook Governo de São Paulo" class="govsp-icon-social" src="barra-govsp/img/insta.png"/>
+        </a>
+       </li>
+       <li>
+        <a class="govsp-social" href="https://www.flickr.com/governosp/" target="_blank">
+         <img alt="Facebook Governo de São Paulo" class="govsp-icon-social" src="barra-govsp/img/flickr.png"/>
+        </a>
+       </li>
+       <li>
+        <a class="govsp-social" href="https://www.youtube.com/governosp/" target="_blank">
+         <img alt="Facebook Governo de São Paulo" class="govsp-icon-social" src="barra-govsp/img/youtube.png"/>
+        </a>
+       </li>
+       <li>
+        <a class="govsp-social" href="https://www.issuu.com/governosp/" target="_blank">
+         <img alt="Facebook Governo de São Paulo" class="govsp-icon-social" src="barra-govsp/img/issuu.png"/>
+        </a>
+       </li>
+       <li>
+        <a class="govsp-social" href="https://www.linkedin.com/company/governosp/" target="_blank">
+         <img alt="Facebook Governo de São Paulo" class="govsp-icon-social" src="barra-govsp/img/linkedin.png"/>
+        </a>
+       </li>
+       <li>
+       </li>
+       <p class="govsp-social">
+        /governosp
+       </p>
+      </li>
+     </ul>
+    </div>
+   </div>
+   <script src="barra-govsp/js/script-topo.js">
+   </script>
+   <script src="barra-govsp/js/script-contrast.js">
+   </script>
+   <script src="barra-govsp/js/script-tamanho-fonte.js">
+   </script>
+   <script src="barra-govsp/js/script-scroll.js">
+   </script>
+  </section>
+  <section class="menu">
+   <div class="nav-menu">
+    <span>
+    </span>
+    <span>
+    </span>
+    <span>
+    </span>
+   </div>
+   <nav class="menu-site novo-menu-site">
+    <div class="row menu-coronasite">
+     <div class="col-md-3 item-menu no-border-left">
+      <a class="no-border-left" href="http://saopaulo.sp.gov.br/coronavirus ">
+       Início
+      </a>
+     </div>
+     <div class="col-md-3 item-menu">
+      <a href="https://www.saopaulo.sp.gov.br/coronavirus/quarentena/">
+       Quarentena e decretos
+      </a>
+     </div>
+     <div class="col-md-3 item-menu">
+      <a class="no-border-left" href="https://www.seade.gov.br/coronavirus/">
+       Boletim Coronavírus
+      </a>
+     </div>
+     <div class="col-md-3 item-menu">
+      <a href="https://www.saopaulo.sp.gov.br/coronavirus/isolamento/">
+       Índice de isolamento
+      </a>
+     </div>
+     <div class="col-md-3 item-menu no-border-left">
+      <a href="https://www.saopaulo.sp.gov.br/coronavirus/pessoacomdeficiencia/">
+       Pessoas com deficiência
+      </a>
+     </div>
+     <div class="col-md-3 item-menu">
+      <a href="https://www.saopaulo.sp.gov.br/coronavirus/transparencia/">
+       Transparência
+      </a>
+     </div>
+     <div class="col-md-3 item-menu">
+      <a class="" href="https://www.saopaulo.sp.gov.br/coronavirus/doacoes">
+       Doações
+      </a>
+     </div>
+     <div class="col-md-3 item-menu">
+      <a class="" href="https://www.saopaulo.sp.gov.br/coronavirus/proteja-se/">
+       Proteja-se
+      </a>
+     </div>
+     <div class="col-md-3 item-menu no-border-left">
+      <a class="no-border-bottom" href="https://www.saopaulo.sp.gov.br/coronavirus/sem-fake-news/">
+       Sem fake news
+      </a>
+     </div>
+     <div class="no-border-bottom">
+      <a class="no-border-bottom no-border-bottom-mobile" href="http://saopaulo.sp.gov.br/coronavirus/infograficos">
+       Infográficos
+      </a>
+     </div>
+     <div class="no-border-bottom">
+     </div>
+     <div class="no-border-bottom">
+     </div>
+    </div>
+    <div class="borda-menu-fechar">
+     <span class="bt-fechar">
+     </span>
+    </div>
+   </nav>
+  </section>
+  <!--- menu -->
+  <section class="proteja-se topo-novo pag-interna" id="inicio">
+   <div class="titulo-home proteja-se">
+    <h1 class="titulo titulo-novo">
+     SP contra o
+     <span>
+      novo coronavírus
+     </span>
+    </h1>
+    <div class="container-video cont-protejase cont-logo">
+     <h2 class="sub-titulo quarentena-pag subtitulo-amarelo">
+      Boletim completo
+     </h2>
+    </div>
+   </div>
+  </section>
+  <script>
+   $(document).ready(function() {
+			var hashpbi = {
+
+                                "1":"eyJrIjoiMmQ2NWEwMDUtNDNiNy00ZWEwLTk4MzItYTU3NTAzZGVjMjI1IiwidCI6ImJjOTljZTFhLWYwOGEtNDY4Yy1hOGJlLWI0NmQzZDUyMzRhNiJ9",
+				"2":"eyJrIjoiYjcxZjg4OWEtYmI0NS00ZTEyLWI5NTEtM2QyY2NmYzlhYWNmIiwidCI6ImJjOTljZTFhLWYwOGEtNDY4Yy1hOGJlLWI0NmQzZDUyMzRhNiJ9",
+				"3":"eyJrIjoiNGU0MjM5YWEtYjE1Mi00ZTZjLTk5NjctMTA0OGQxNTYyM2RmIiwidCI6ImJjOTljZTFhLWYwOGEtNDY4Yy1hOGJlLWI0NmQzZDUyMzRhNiJ9"
+
+			}
+
+			var wiframe ='<iframe width="100%" height="600" src="https://app.powerbi.com/view?r=' + hashpbi[1] + '" frameborder="0" allowFullScreen="true"></iframe>';
+			$("#paineis").html(wiframe);
+
+			$(".nav-link").click(function() {				
+				$('.nav-link').removeClass("active");
+				$(this).addClass('active');
+				var cd=$(this).attr("cd");
+				var wiframe ='<iframe width="100%" height="800" src="https://app.powerbi.com/view?r=' + hashpbi[cd] + '" frameborder="0" allowFullScreen="true"></iframe>';
+				$("#paineis").html(wiframe);
+			});
+		});
+  </script>
+  <section class="cards-coronavirus cards-fakenews" id="cards-coronavirus" style="background: #c9e2ec;">
+   <div class="row" style="margin-left:0;margin-right:0">
+    <div class="col-xl-8 col-lg-8 col-md-8 col-sm-12" style="padding-right:0;">
+     <ul class="nav nav-pills">
+      <li class="nav-item">
+       <a cd="1" class="nav-link active" href="#" style="padding:2px 10px">
+        Estado SP, Brasil, outros países
+       </a>
+      </li>
+      <li class="nav-item">
+       <a cd="2" class="nav-link" href="#" style="padding:2px 10px">
+        Dep. Regional Saúde e municípios
+       </a>
+      </li>
+      <li class="nav-item">
+       <a cd="3" class="nav-link" href="#" style="padding:2px 10px">
+        Casos e óbitos
+       </a>
+      </li>
+     </ul>
+    </div>
+    <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12" style="padding-left:0">
+     <p style="text-align:right;">
+      <a class="btn-celular" href="https://www.saopaulo.sp.gov.br/planosp/simi/" style="margin-bottom:8px;" target="_blank">
+       <span class="texto">
+        SIMI
+       </span>
+      </a>
+      |
+      <a class="btn-celular" href="http://www.saude.sp.gov.br/cve-centro-de-vigilancia-epidemiologica-prof.-alexandre-vranjac/areas-de-vigilancia/doencas-de-transmissao-respiratoria/coronavirus-covid-19/situacao-epidemiologica" style="margin-bottom:8px;" target="_blank">
+       <span class="texto">
+        Situação Epidemiológica
+       </span>
+      </a>
+     </p>
+    </div>
+   </div>
+   <div class="container intrinsic-container intrinsic-container-16x9" style="padding-left:2%;padding-right:2%;max-width:100%;">
+    <div id="paineis">
+     <!---carrega o iframe-->
+    </div>
+   </div>
+  </section>
+  <div class="alert alert-primary" role="alert">
+   <!-- BOTOES PARA MONITORES -->
+   <div class="monitor">
+    Baixar os dados (csv):
+    <br/>
+    <a class="btn-celular" href="/wp-content/uploads/coronavirus-files/Dados-covid-19-estado.csv" target="_blank">
+     <span class="texto">
+      Estado de SP
+     </span>
+     <span class="icone">
+      <i class="fas fa-download">
+      </i>
+     </span>
+    </a>
+    <a class="btn-celular" href="/wp-content/uploads/coronavirus-files/Dados-covid-19-municipios.csv" target="_blank">
+     <span class="texto">
+      Municípios
+     </span>
+     <span class="icone">
+      <i class="fas fa-download">
+      </i>
+     </span>
+    </a>
+    |
+    <a class="btn-celular" href="https://raw.githubusercontent.com/seade-R/dados-covid-sp/master/data/plano_sp_leitos_internacoes_serie_nova_variacao_semanal.csv.zip" target="_blank">
+     <span class="texto">
+      Leitos e Internações
+     </span>
+     <span class="icone">
+      <i class="fas fa-download">
+      </i>
+     </span>
+    </a>
+    |
+    <a class="btn-celular" href="https://raw.githubusercontent.com/seade-R/dados-covid-sp/master/data/casos_obitos_doencas_preexistentes.csv.zip" target="_blank">
+     <span class="texto">
+      Casos, óbitos e doenças preexistentes
+     </span>
+     <span class="icone">
+      <i class="fas fa-download">
+      </i>
+     </span>
+    </a>
+    |
+    <a class="btn-celular" href="https://github.com/seade-R/dados-covid-sp" target="_blank">
+     <span class="texto">
+      Repositório de dados
+     </span>
+    </a>
+    |
+    <a class="btn-celular" href="/wp-content/uploads/coronavirus-files/Boletim-Coronavirus.pdf" target="_blank">
+     <span class="texto">
+      Boletim
+     </span>
+     <span class="icone">
+      <i class="fas fa-file-pdf">
+      </i>
+     </span>
+    </a>
+    |
+    <a class="btn-celular" href="/wp-content/uploads/coronavirus-files/Boletim-Coronavirus-Anexo-metodologico.pdf" target="_blank">
+     <span class="texto">
+      Metodologia
+     </span>
+     <span class="icone">
+      <i class="fas fa-file-pdf">
+      </i>
+     </span>
+    </a>
+   </div>
+   <!-- BOTOES PARA TELA ATE 760PX -->
+   <div class="celular">
+    <p>
+     Baixar os dados (csv):
+    </p>
+    <a class="btn-celular" href="/wp-content/uploads/coronavirus-files/Dados-covid-19-estado.csv" style="margin-right:.15em;" target="_blank">
+     <span class="texto">
+      Estado de SP
+     </span>
+     <span class="icone">
+      <i class="fas fa-download">
+      </i>
+     </span>
+    </a>
+    <a class="btn-celular" href="/wp-content/uploads/coronavirus-files/Dados-covid-19-municipios.csv" target="_blank">
+     <span class="texto">
+      Municípios
+     </span>
+     <span class="icone">
+      <i class="fas fa-download">
+      </i>
+     </span>
+    </a>
+    <br/>
+    <a class="btn-celular" href="https://raw.githubusercontent.com/seade-R/dados-covid-sp/master/data/plano_sp_leitos_internacoes_serie_nova_variacao_semanal.csv.zip" target="_blank">
+     <span class="texto">
+      Leitos e internações
+     </span>
+     <span class="icone">
+      <i class="fas fa-download">
+      </i>
+     </span>
+    </a>
+    <br/>
+    <a class="btn-celular" href="https://raw.githubusercontent.com/seade-R/dados-covid-sp/master/data/casos_obitos_doencas_preexistentes.csv.zip" target="_blank">
+     <span class="texto">
+      Casos, óbitos e doenças preexistentes
+     </span>
+     <span class="icone">
+      <i class="fas fa-download">
+      </i>
+     </span>
+    </a>
+    <br/>
+    <a class="btn-celular" href="https://github.com/seade-R/dados-covid-sp" target="_blank">
+     <span class="texto">
+      Repositório de dados
+     </span>
+     <!--<span class="icone"><i class="fas fa-external-link-alt"> </i></span>-->
+    </a>
+    <br/>
+    <a class="btn-celular" href="/wp-content/uploads/coronavirus-files/Boletim-Coronavirus.pdf" target="_blank">
+     <span class="texto">
+      Boletim
+     </span>
+     <span class="icone">
+      <i class="fas fa-file-pdf">
+      </i>
+     </span>
+    </a>
+    <br/>
+    <a class="btn-celular" href="/wp-content/uploads/coronavirus-files/Boletim-Coronavirus-Anexo-metodologico.pdf" target="_blank">
+     <span class="texto">
+      Metodologia
+     </span>
+     <span class="icone">
+      <i class="fas fa-file-pdf">
+      </i>
+     </span>
+    </a>
+   </div>
+  </div>
+  <script crossorigin="anonymous" src="assets/bootstrap/js/bootstrap.min.js">
+  </script>
+  <section class="casos-suspconf" style="padding:2% 5% 3% 5%;">
+   <a aria-controls="multiCollapseExample1" aria-expanded="false" class="botao-veja-mais botoes-duvidas-freq botao-materiais" data-toggle="collapse" href="#sobre_indice_isolamento" role="button" style="padding:7px 20px 7px 20px; font-size:1rem;">
+    Sobre o índice de isolamento
+    <i class="fas fa-angle-down">
+    </i>
+   </a>
+   <div class="collapse multi-collapse" id="sobre_indice_isolamento" style="margin-top:0.25rem;">
+    <div class="card card-body" style="font-size:0.9rem;">
+     <p>
+      O SIMI-SP (Sistema de Monitoramento Inteligente de São Paulo) é viabilizado por meio de acordo com as operadoras de telefonia Vivo, Claro, Oi e TIM, através da ABR (Associação Brasileira de Recursos em Telecomunicações) e 
+       do IPT (Instituto de Pesquisas Tecnológicas) (
+      <a href="https://www.saopaulo.sp.gov.br/coronavirus/isolamento/">
+       https://www.saopaulo.sp.gov.br/coronavirus/isolamento/
+      </a>
+      ), para que o Estado possa consultar informações agregadas e anônimas sobre deslocamento nos municípios paulistas mapeados.
+     </p>
+     <p>
+      Em respeito à proteção de dados, as informações são aglutinadas e anonimizadas, respeitando a privacidade dos usuários. Apresentando dessa forma, dados georreferenciados agrupados para elaborar políticas públicas que
+       aprimorem as medidas de isolamento social para o enfrentamento ao coronavírus.
+     </p>
+    </div>
+   </div>
+  </section>
+  <div class="pre-rodape">
+  </div>
+  <section class="rodape-coronasite">
+   <div class="container">
+    <div class="row itens-menu">
+     <div class="col-md-3 coluna-rodape">
+      <div class="titulo-coluna">
+       <p>
+        Previna-se
+       </p>
+      </div>
+      <a class="item-menu-rodape" href="https://www.saopaulo.sp.gov.br/coronavirus/proteja-se/">
+       <p>
+        • Como se proteger
+       </p>
+      </a>
+      <a class="item-menu-rodape" href="https://www.saopaulo.sp.gov.br/spnoticias/saiba-como-lavar-as-maos-para-se-prevenir-contra-a-covid-19/" target="_blank">
+       <p>
+        • Higienização das mãos
+       </p>
+      </a>
+      <a class="item-menu-rodape" href="https://www.saopaulo.sp.gov.br/spnoticias/cuidados-e-orientacoes-para-usar-mascaras-caseiras/" target="_blank">
+       <p>
+        • Uso de máscaras
+       </p>
+      </a>
+      <a class="item-menu-rodape" href="https://www.saopaulo.sp.gov.br/spnoticias/idosos-sao-foco-da-primeira-fase-da-campanha-de-vacinacao-contra-gripe/" target="_blank">
+       <p>
+        • Vacinação contra gripe
+       </p>
+      </a>
+     </div>
+     <div class="col-md-3 coluna-rodape">
+      <div class="titulo-coluna">
+       <p>
+        Informe-se
+       </p>
+      </div>
+      <a class="item-menu-rodape" href="https://www.saopaulo.sp.gov.br/coronavirus/pessoacomdeficiencia/">
+       <p>
+        • Orientações para pessoas com deficiência
+       </p>
+      </a>
+      <a class="item-menu-rodape" href="https://www.saopaulo.sp.gov.br/noticias-coronavirus/">
+       <p>
+        • Últimas notícias
+       </p>
+      </a>
+      <a class="item-menu-rodape" href="https://www.saopaulo.sp.gov.br/coronavirus/sem-fake-news/">
+       <p>
+        • Checagem de notícias falsas
+       </p>
+      </a>
+      <a class="item-menu-rodape" href="https://www.saopaulo.sp.gov.br/spnoticias/perguntas-e-respostas-tire-suas-duvidas-sobre-coronavirus/" target="_blank">
+       <p>
+        • Dúvidas frequentes
+       </p>
+      </a>
+      <a class="item-menu-rodape" href="https://t.me/spcoronavirus" target="_blank">
+       <p>
+        • Grupo no Telegram
+       </p>
+      </a>
+      <a class="item-menu-rodape" href="https://wa.me/5511952202923" target="_blank">
+       <p>
+        • Canal do WhatsApp
+       </p>
+      </a>
+      <a class="item-menu-rodape" href="https://www.saopaulo.sp.gov.br/coronavirus/infograficos/">
+       <p>
+        • Infográficos
+       </p>
+      </a>
+     </div>
+     <div class="col-md-3 coluna-rodape">
+      <div class="titulo-coluna">
+       <p>
+        Dados e índices
+       </p>
+      </div>
+      <a class="item-menu-rodape" href="https://www.seade.gov.br/coronavirus/">
+       <p>
+        • Boletim Coronavírus completo
+       </p>
+      </a>
+      <a class="item-menu-rodape" href="https://www.saopaulo.sp.gov.br/coronavirus/isolamento/">
+       <p>
+        • Índice de isolamento social
+       </p>
+      </a>
+     </div>
+     <div class="col-md-3 coluna-rodape">
+      <div class="titulo-coluna">
+       <p>
+        Ações oficiais
+       </p>
+      </div>
+      <a class="item-menu-rodape" href="https://www.saopaulo.sp.gov.br/coronavirus/proteja-se/">
+       <p>
+        • Medidas de combate e prevenção
+       </p>
+      </a>
+      <a class="item-menu-rodape" href="https://www.saopaulo.sp.gov.br/coronavirus/quarentena/">
+       <p>
+        • Quarentena e decretos
+       </p>
+      </a>
+      <!-- <a class="item-menu-rodape" target="_blank" href="https://www.saopaulo.sp.gov.br/coronavirus/planosp/">
+                  <p>
+                      • Plano São Paulo
+                  </p>
+               </a>
+
+               <a class="item-menu-rodape" target="_blank" href="https://www.saopaulo.sp.gov.br/coronavirus/fornecedores/">
+                  <p>
+                      • Fornecedores
+                  </p>
+               </a> -->
+      <a class="item-menu-rodape" href="https://www.saopaulo.sp.gov.br/coronavirus/transparencia/" target="_blank">
+       <p>
+        • Transparência
+       </p>
+      </a>
+      <a class="item-menu-rodape" href="https://www.saopaulo.sp.gov.br/coronavirus/doacoes/">
+       <p>
+        • Doações
+       </p>
+      </a>
+     </div>
+    </div>
+   </div>
+  </section>
+  <section id="govsp-rodape">
+   <link href="https://saopaulo.sp.gov.br/barra-govsp/css/rodape-sp.css" rel="stylesheet" type="text/css"/>
+   <div id="govsp-footerGlobal">
+    <ul class="govsph-links">
+     <div id="govsp-links-footer">
+      <li class="govsp-link-rodape">
+       <a class="govsp-links-footer" href="https://www.ouvidoria.sp.gov.br/Portal/Default.aspx" target="_blank">
+        Ouvidoria
+       </a>
+      </li>
+      <li class="govsp-link-rodape">
+       <a class="govsp-links-footer" href="http://www.transparencia.sp.gov.br/" target="_blank">
+        Transparência
+       </a>
+      </li>
+      <li class="govsp-link-rodape">
+       <a class="govsp-links-footer no-border" href="http://www.sic.sp.gov.br/" target="_blank">
+        SIC
+       </a>
+      </li>
+     </div>
+     <li class="govsp-link-rodape">
+      <img class="govsph-logo-rodape" src="https://saopaulo.sp.gov.br/barra-govsp/img/logo-rodape.png"/>
+     </li>
+     <li class="govsp-link-rodape">
+      <img class="govsph-logo-rodape logo-negativo" src="https://saopaulo.sp.gov.br/barra-govsp/img/logo-rodape-negativo.png"/>
+     </li>
+    </ul>
+   </div>
+   <div class="govsp-preto" id="govsp-footer-bottom">
+   </div>
+  </section>
+ </body>
+</html>
